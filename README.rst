@@ -149,7 +149,7 @@ Now I decided to publish that article here as the README file of this repository
     <p>برای نتیجه‌‌‌‌گیری می‌‌‌‌توانیم فرایندی را که گربه طی می‌‌‌‌کند در قالب کد زیر خلاصه کنیم. کدهای زیر به زبان Objective-C هستند، امّا شما می‌‌‌‌توانید آن‌‌‌‌ها را به راحتی به هر زبان دیگری ترجمه کنید:</p>
     </div>
     
-.. code::
+.. code-block:: objective-c
  
     [openList add:originalSquare]; // start by adding the original position to the open list
 
