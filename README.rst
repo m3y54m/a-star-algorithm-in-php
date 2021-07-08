@@ -148,7 +148,10 @@ Now I decided to publish that article here as the README file of this repository
     <p>کوتاه‌‌‌‌ترین مسیر با شروع از نقطه‌‌‌‌ی مقصد و عقب رفتن از یک مربع والد به مربع والد دیگر ساخته می‌‌‌‌شود (مثلاً: در مربعِ مقصد می‌‌‌‌بینیم که پیکانِ داخلِ آن به سمت راست است پس مربعِ والد آن در سمت چپ قرار دارد).</p>
     <p>برای نتیجه‌‌‌‌گیری می‌‌‌‌توانیم فرایندی را که گربه طی می‌‌‌‌کند در قالب کد زیر خلاصه کنیم. کدهای زیر به زبان Objective-C هستند، امّا شما می‌‌‌‌توانید آن‌‌‌‌ها را به راحتی به هر زبان دیگری ترجمه کنید:</p>
     </div>
-    <pre>[openList add:originalSquare]; // start by adding the original position to the open list
+    
+ .. code::
+ 
+    [openList add:originalSquare]; // start by adding the original position to the open list
 
     do {
         currentSquare = [openList squareWithLowestFScore]; // Get the square with the lowest F score
@@ -174,4 +177,4 @@ Now I decided to publish that article here as the README file of this repository
                         // test if using the current G score make the aSquare F score lower, if yes update the parent because it means its a better path
                 }
         }
-    } while(![openList isEmpty]); // Continue until there is no more available square in the open list (which means there is no path)</pre>
+    } while(![openList isEmpty]); // Continue until there is no more available square in the open list (which means there is no path)
