@@ -3,6 +3,9 @@ A* Algorithm Implementation in PHP
 
 This is translation of the C implementation of A* (https://github.com/m3y54m/a-star-algorithm-in-c) into PHP. Just for fun :)
 
+.. image:: https://github.com/m3y54m/a-star-algorithm-in-php/blob/main/output.png?raw=true
+    :alt: Output of this code in web browser
+
 A very basic and easy to understand implementation of A* algorithm in C that was part of my "Fundamentals of Programming" course at the University of Zanjan, Fall 2012.
 
 The code is written based on this tutorial: https://www.raywenderlich.com/3016-introduction-to-a-pathfinding
