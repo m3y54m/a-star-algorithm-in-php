@@ -1,4 +1,4 @@
-A* Algorithm Implementation in C
+A* Algorithm Implementation in PHP
 =================================
 
 This is translation of the C implementation of A* (https://github.com/m3y54m/a-star-algorithm-in-c) into PHP. Just for fun :)
